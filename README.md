@@ -4,7 +4,7 @@
 
 To View the live site click [here &rarr;](https://glennpaulaby.github.io/github-portfolio/)
 
-![Portfolio Gif](/images/portfolio.gif)
+``` ![Portfolio Gif](/images/portfolio.gif) ```
 
 ## Want to learn How to create a template like this ?
 
@@ -24,7 +24,7 @@ To View the live site click [here &rarr;](https://glennpaulaby.github.io/github-
 
 ## Lighthouse Report
 
-![Lighthouse Report](/images/lighthouse-report.png)
+``` ![Lighthouse Report](/images/lighthouse-report.png)```
 
 ### Contributions are warmly welcomed ❤️.
 
