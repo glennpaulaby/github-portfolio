@@ -4,7 +4,8 @@
 
 To View the live site click [here &rarr;](https://glennpaulaby.github.io/github-portfolio/)
 
-``` ![Portfolio Gif](/images/portfolio.gif) ```
+``` ![Portfolio Gif](/images/portfolio.gif) 
+```
 
 ## Want to learn How to create a template like this ?
 
