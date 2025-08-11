@@ -526,7 +526,7 @@ body:not(.user-is-tabbing) a:focus {
 }
 
 .work__image {
-    width: 125%;
+    width: 100%;
     max-width: 700px;
     height: auto;
 }
