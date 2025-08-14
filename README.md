@@ -1,2 +1,2 @@
-View my Portfolio -> [here &rarr;](https://glennpaulaby.github.io/github-portfolio/)
+View my Portfolio -> [here](https://glennpaulaby.github.io/github-portfolio/)
 
