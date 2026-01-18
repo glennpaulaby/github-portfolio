@@ -35,11 +35,21 @@
 
 <body>
 
+<!-- 🔊 Background music -->
+<audio id="bg-music"></audio>
+
+<!-- 🎵 Music Controls -->
+<div class="music-controls">
+  <button id="prev-track" class="music-btn">⏮</button>
+  <button id="music-toggle" class="music-btn">▶</button>
+  <button id="next-track" class="music-btn">⏭</button>
+</div>
+
   <!-- ***** Header ***** -->
 
 <header class="header" role="banner" id="top">
   <!-- Video background -->
-  <video class="header__video" autoplay muted loop playsinline poster="./images/Snow-Vibe.jpg">
+  <video class="header__video" autoplay muted loop playsinline poster="">
     <source src="./video/thrissur pooram.mp4" type="video/mp4">
     Your browser does not support the video tag.
   </video>
@@ -50,7 +60,8 @@
   <div class="row">
     <nav class="nav" role="navigation">
       <ul class="nav__items">
-        <li class="nav__item"><a href="#work" class="nav__link">Work</a></li>
+        <li class="nav__item"><a href="#work" class="nav__link">Projects</a></li>
+        <li class="nav__item"><a href="#hobbies" class="nav__link">Hobbies</a></li>
         <li class="nav__item"><a href="#clients" class="nav__link">Clients</a></li>
         <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
         <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
@@ -185,9 +196,8 @@
               </p>
               <ul class="work__list">
                 <li>Python</li>
-                <li>YOLOv5</li>
-                <li>OpenCV</li>
-                <li>NVIDIA Jetson Nano</li>
+                <li>MoviePy</li>
+
               </ul>
 
               <div class="work__links">
@@ -278,6 +288,50 @@
       </div>
     </section>
 
+
+    <!-- ***** Hobbies ***** -->
+
+    <section class="Hobbies" id="hobbies">
+      <div class="row">
+      <h2>My Extra-Curricular Activities</h2>
+        <div class="hobby__boxes">
+          
+          <div class="work__box">
+            <div class="work__text">
+              <h3>Instagram Clone Mockup</h3>
+              <p>
+                Created an Instagram UI clone during a 7-day free bootcamp by DevTown. 
+                Gained foundational skills in HTML and CSS to build a fully functional, 
+                live project on CodeSandbox.
+              </p>
+              <ul class="work__list">
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>CodeSandbox</li>
+              </ul>
+
+              <div class="work__links">
+                <a href="https://9ho9fd.csb.app/" target="_blank" class="link__text">
+                  Visit Site <span>&rarr;</span>
+                </a>
+                <a href="https://github.com/glennpaulaby/instagram-clone" title="View Source Code" target="_blank">
+                  <img src="./images/github.svg" class="work__code" alt="GitHub">
+                </a>
+              </div>
+            </div>
+            <div class="work__image-box">
+              <video class="work__image" autoplay muted loop playsinline>
+                 <source src="./video/instagram clone.mp4" type="video/mp4">
+                 Your browser does not support the video tag.
+                 </video>
+                 </div>
+          </div> 
+      </div>
+    </section>
+  </main>
+
+
+
     <!-- ***** Clients ***** -->
 
     <section class="client" id="clients">
@@ -285,12 +339,11 @@
         <h2>Clients</h2>
         <div class="client__logos">
           <!-- Add logos of the clients or companies you'have worked with. -->
-          <img src="./images/ronjones.png" class="client__logo" alt="Company 2" />
-          <img src="./images/goldengrid.png" class="client__logo" alt="Company 3" />
-          <img src="./images/bullseye.png" class="client__logo" alt="Company 1" />
-          <img src="./images/mighty-furnitures.png" class="client__logo" alt="Company 1" />
-          <img src="./images/fastlane.png" class="client__logo" alt="Company 3" />
-          <img src="./images/chippy.png" class="client__logo" alt="Company 1" />
+          <img src="./images/camber logo.png" class="client__logo" alt="Company 2" />
+          <img src="./images/team everest logo white.png" class="client__logo" alt="Company 3" />
+          <img src="./images/Pro.Fil.jpg" class="client__logo" alt="Company 1" />
+          <img src="./images/Vloggio YT.png" class="client__logo" alt="Company 1" />
+
         </div>
       </div>
     </section>
@@ -308,12 +361,12 @@
               and image based intelligence. Demonstrated innovation through research, projects, and system-level implementations.  
             </p>
             <!-- Provide a link to your resume -->
-            <a href="https://drive.google.com/file/d/1Txl1REiPl5vclsCJ_ssoh70mphfzjuzA/view?usp=sharing" class="btn">My Resume</a>
+            <a href="https://drive.google.com/file/d/1myerk25iBDu4RqDC02zAM27KHmw7BbB4/view?usp=sharing" class="btn" target="_blank" rel="noopener noreferrer"> My Resume </a>
           </div>
 
           <div class="about__photo-container">
             <!-- Add a nice photo of yourself -->
-            <img class="about__photo" src="./images/glenn.jpg" alt="" />
+            <img class="about__photo" src="./images/about me.jpg" alt="" />
           </div>
         </div>
       </div>

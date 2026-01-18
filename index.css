@@ -22,6 +22,31 @@
     box-sizing: inherit;
 }
 
+.music-btn {
+  padding: 10px 14px;
+  border: none;
+  border-radius: 25px;
+  background: rgba(0, 0, 0, 0.7);
+  color: white;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+
+.music-btn:hover {
+  background: rgba(0, 0, 0, 0.9);
+}
+
+.music-controls {
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+  display: flex;
+  gap: 3px;
+  z-index: 9999;
+}
+
+
 :root {
     --font-size-small: 1.8rem;
     --font-size-normal: 2.2rem;
