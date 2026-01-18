@@ -58,7 +58,7 @@ const playlist = [
 ];
 
 let currentTrack = 0;
-music.volume = 0.05;
+music.volume = 0.075;
 music.preload = "auto";
 
 function playTrack(index) {
