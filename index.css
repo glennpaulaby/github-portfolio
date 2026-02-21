@@ -733,7 +733,7 @@ h2::after {
 
 /* Target the category titles (e.g., Core Technical Skills) */
 .skills__category h3 {
-    font-size: 3.2rem; /* Increased from medium size */
+    font-size: 1.7rem; /* Increased from medium size */
     margin-bottom: 2rem;
     color: var(--white);
     letter-spacing: 1px;
@@ -741,7 +741,7 @@ h2::after {
 
 /* Target the descriptive skill text */
 .skills__category p {
-    font-size: 2.2rem; /* Increased to your standard "normal" size */
+    font-size: 1.9rem; /* Increased to your standard "normal" size */
     line-height: 1.6;
     margin-bottom: 1.5rem;
     color: var(--white-1); /* Softer white for readability */
@@ -750,7 +750,7 @@ h2::after {
 /* Target the bold labels (e.g., Programming:) */
 .skills__category p strong {
     color: var(--pink); /* Accents your key skill areas */
-    font-size: 2.4rem;  /* Slightly larger than the list items */
+    font-size: 1.9rem;  /* Slightly larger than the list items */
 }
 
 /* Language Bars */
@@ -772,7 +772,7 @@ h2::after {
 
 .lang-unit {
     margin-bottom: 1.5rem;
-    font-size: var(--font-size-medium);
+    font-size: var(--font-size-normal);
 }
 
 .bar {
