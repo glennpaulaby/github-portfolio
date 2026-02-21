@@ -50,10 +50,9 @@ const nextBtn = document.getElementById("next-track");
 const prevBtn = document.getElementById("prev-track");
 
 const playlist = [
+  "./audio/MiaSebastiansTheme.mp3",
   "./audio/Autobots.mp3",
   "./audio/Beethoven.mp3",
-  "./audio/CornfieldChase.mp3",
-  "./audio/MiaSebastiansTheme.mp3",
   "./audio/TheBlueDanubeWaltz.mp3",
 ];
 
@@ -90,4 +89,5 @@ music.addEventListener("ended", () => {
   currentTrack = (currentTrack + 1) % playlist.length;
   playTrack(currentTrack);
 });
+
 

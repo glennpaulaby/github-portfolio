@@ -26,7 +26,7 @@
   padding: 10px 14px;
   border: none;
   border-radius: 25px;
-  background: rgba(0, 0, 0, 0.7);
+  background: rgba(37, 37, 37, 0.7);
   color: white;
   font-size: 14px;
   cursor: pointer;
@@ -34,7 +34,7 @@
 
 
 .music-btn:hover {
-  background: rgba(0, 0, 0, 0.9);
+  background: rgba(0, 0, 0, 0.515);
 }
 
 .music-controls {
@@ -669,4 +669,129 @@ body:not(.user-is-tabbing) a:focus {
     .footer {
         padding: var(--gutter-medium) 0;
     } 
+}
+
+
+
+
+:root {
+    /* Updated Colors */
+    --black: #000000; /* Deep Navy Charcoal */
+    --pink: #da1818;  /* Transitioning to Cyan for AI feel */
+    --accent-gradient: linear-gradient(90deg, #16c6dd, #7000ff);
+    --white: #ffffff;
+    --white-1: #ffffff; /* Slate Gray for softer text descriptions */
+}
+
+/* Glassmorphism for the Hero Section */
+.glass-card {
+    background: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    padding: 3rem;
+    border-radius: 15px;
+}
+
+/* Upgraded Button with Gradient and Glow */
+.btn--pink {
+    background: var(--accent-gradient);
+    border: none;
+    color: white;
+    font-weight: 600;
+    box-shadow: 0 4px 15px rgba(0, 242, 255, 0.464);
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.btn--pink:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 25px rgba(111, 0, 255, 0.497);
+    background: var(--accent-gradient); /* Keep gradient on hover */
+}
+
+/* Modernizing Section Headers */
+h2::after {
+    background: var(--accent-gradient);
+    width: 15rem;
+}
+
+/* Skills Layout */
+/* Update this in index.css */
+.skills__container {
+    display: grid; /* Changed from grid to flex */
+    flex-direction: column;
+    align-items: center; /* Centers items horizontally */
+    text-align: left;  /* Centers text inside the items */
+    gap: 4rem;
+    margin-top: var(--gutter-small-1);
+}
+
+.skills__category {
+    max-width: 800px; /* Keeps the text from becoming too wide */
+    width: 100%;
+}
+
+/* Target the category titles (e.g., Core Technical Skills) */
+.skills__category h3 {
+    font-size: 3.2rem; /* Increased from medium size */
+    margin-bottom: 2rem;
+    color: var(--white);
+    letter-spacing: 1px;
+}
+
+/* Target the descriptive skill text */
+.skills__category p {
+    font-size: 2.2rem; /* Increased to your standard "normal" size */
+    line-height: 1.6;
+    margin-bottom: 1.5rem;
+    color: var(--white-1); /* Softer white for readability */
+}
+
+/* Target the bold labels (e.g., Programming:) */
+.skills__category p strong {
+    color: var(--pink); /* Accents your key skill areas */
+    font-size: 2.4rem;  /* Slightly larger than the list items */
+}
+
+/* Language Bars */
+
+.lang__container {
+    display: flex; /* Changed from grid to flex */
+    flex-direction: column;
+    align-items: center; /* Centers items horizontally */
+    text-align: left;  /* Centers text inside the items */
+    gap: 4rem;
+    margin-top: var(--gutter-small-1);
+}
+
+.lang__category {
+    max-width: 800px; /* Keeps the text from becoming too wide */
+    width: 100%;
+}
+
+
+.lang-unit {
+    margin-bottom: 1.5rem;
+    font-size: var(--font-size-medium);
+}
+
+.bar {
+    width: 100%;
+    height: 8px;
+    background: #222;
+    border-radius: 10px;
+    margin-top: 5px;
+    overflow: hidden;
+}
+
+.fill {
+    height: 100%;
+    background: var(--pink); /* Your signature pink/cyan gradient */
+    border-radius: 10px;
+}
+
+@media(max-width: 900px) {
+    .skills__container {
+        grid-template-columns: 1fr;
+    }
 }
